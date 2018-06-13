@@ -1,0 +1,56 @@
+{
+  "text": {
+    "categories": ["control"]
+  },
+  "radios": {
+    "categories": ["control"]
+  },
+  "group": {
+    "categories": ["grouping"],
+    "transforms": {
+      "model": {
+        "propagation": "items[?(@.$control || @.$grouping)]"
+      }
+    }
+  },
+  "page.start": {
+    "categories": ["page"],
+    "transforms": {
+      "model": {
+        "propagation": "components[?(@.$control || @.$grouping)]"
+      }
+    }
+  },
+  "page.wham": {
+    "categories": ["page"],
+    "transforms": {
+      "model": {
+        "propagation": "components[?(@.$control || @.$grouping)]"
+      }
+    }
+  },
+  "page.singlequestion": {
+    "categories": ["page"],
+    "transforms": {
+      "model": {
+        "propagation": "components[?(@.$control || @.$grouping)]"
+      }
+    }
+  },
+  "page.form": {
+    "categories": ["page"],
+    "transforms": {
+      "model": {
+        "propagation": "components[?(@.$control || @.$grouping)]"
+      }
+    }
+  },
+  "page.content": {
+    "categories": ["page"],
+    "transforms": {
+      "model": {
+        "propagation": "components[?(@.$control || @.$grouping)]"
+      }
+    }
+  }
+}
