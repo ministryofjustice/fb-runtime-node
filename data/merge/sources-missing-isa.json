@@ -1,8 +1,6 @@
-[
-  {
+[{
     "source": "source1",
-    "instances": [
-      {
+    "instances": [{
         "_id": "a",
         "value": "source1 a"
       },
@@ -18,25 +16,19 @@
   },
   {
     "source": "source2",
-    "instances": [
-      {
+    "instances": [{
         "_id": "a",
         "value": "source2 a"
       },
       {
         "_id": "d",
         "value": "source2 d"
-      },
-      {
-        "_id": "e",
-        "value": "source2 e"
       }
     ]
   },
   {
     "source": "source3",
-    "instances": [
-      {
+    "instances": [{
         "_id": "a",
         "value": "source2 a"
       },
@@ -54,12 +46,10 @@
       },
       {
         "_id": "h",
-        "components": [
-          {
-            "_id": "g--a",
-            "_isa": "e"
-          }
-        ]
+        "components": [{
+          "_id": "g--a",
+          "_isa": "e"
+        }]
       }
     ]
   }
