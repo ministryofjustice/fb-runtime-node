@@ -2,7 +2,7 @@
   "a": {
     "$source": "source3",
     "_id": "a",
-    "value": "source2 a"
+    "value": "source3 a"
   },
   "e": {
     "$source": "source3",
@@ -12,26 +12,51 @@
   "f": {
     "$source": "source3",
     "_id": "f",
-    "_isa": "e"
+    "_isa": "e",
+    "value": "source3 e",
+    "$original": {
+      "$source": "source3",
+      "_id": "f",
+      "_isa": "e"
+    }
   },
   "g": {
     "$source": "source3",
     "_id": "g",
-    "_isa": "source2=>e"
+    "_isa": "source2=>e",
+    "value": "source2 e",
+    "$original": {
+      "$source": "source3",
+      "_id": "g",
+      "_isa": "source2=>e"
+    }
   },
   "h": {
     "$source": "source3",
     "_id": "h",
-    "components": [{
-      "$source": "source3",
-      "_id": "g--a",
-      "value": "source3 e",
-      "_isa": "e",
-      "$original": {
+    "components": [
+      {
+        "$source": "source3",
         "_id": "g--a",
-        "_isa": "e"
+        "value": "source3 e",
+        "_isa": "e",
+        "$original": {
+          "_id": "g--a",
+          "_isa": "e"
+        }
       }
-    }]
+    ]
+  },
+  "i": {
+    "$source": "source3",
+    "_id": "i",
+    "_isa": "b",
+    "value": "source1 b",
+    "$original": {
+      "$source": "source3",
+      "_id": "i",
+      "_isa": "b"
+    }
   },
   "d": {
     "$source": "source2",

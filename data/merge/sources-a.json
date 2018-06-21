@@ -34,7 +34,7 @@
     "source": "source3",
     "instances": [{
         "_id": "a",
-        "value": "source2 a"
+        "value": "source3 a"
       },
       {
         "_id": "e",
@@ -54,6 +54,10 @@
           "_id": "g--a",
           "_isa": "e"
         }]
+      },
+      {
+        "_id": "i",
+        "_isa": "b"
       }
     ]
   }

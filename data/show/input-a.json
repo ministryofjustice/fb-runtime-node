@@ -135,5 +135,16 @@
         }
       }
     ]
+  },
+  "jim": {
+    "_id": "jim",
+    "_type": "page.start",
+    "steps": [
+      "jam"
+    ]
+  },
+  "jam": {
+    "_id": "jam",
+    "_type": "page.form"
   }
 }
