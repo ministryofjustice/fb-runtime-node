@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@ministryofjustice/fb-specification": "git+https://github.com/ministryofjustice/fb-specification.git#a649c94",
-    "@ministryofjustice/fb-utils-node": "^0.1.0",
+    "@ministryofjustice/fb-utils-node": "^0.1.1",
     "glob-promise": "^3.4.0",
     "jsonpath": "^1.0.0",
     "load-json-file": "^4.0.0",
