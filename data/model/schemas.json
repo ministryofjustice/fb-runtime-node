@@ -1,12 +1,12 @@
 {
   "text": {
-    "categories": ["control"]
+    "category": ["control"]
   },
   "radios": {
-    "categories": ["control"]
+    "category": ["control"]
   },
   "group": {
-    "categories": ["grouping"],
+    "category": ["grouping"],
     "transforms": {
       "model": {
         "propagation": "items[?(@.$control || @.$grouping)]"
@@ -14,7 +14,7 @@
     }
   },
   "page.start": {
-    "categories": ["page"],
+    "category": ["page"],
     "transforms": {
       "model": {
         "propagation": "components[?(@.$control || @.$grouping)]"
@@ -22,7 +22,7 @@
     }
   },
   "page.wham": {
-    "categories": ["page"],
+    "category": ["page"],
     "transforms": {
       "model": {
         "propagation": "components[?(@.$control || @.$grouping)]"
@@ -30,7 +30,7 @@
     }
   },
   "page.singlequestion": {
-    "categories": ["page"],
+    "category": ["page"],
     "transforms": {
       "model": {
         "propagation": "components[?(@.$control || @.$grouping)]"
@@ -38,7 +38,7 @@
     }
   },
   "page.form": {
-    "categories": ["page"],
+    "category": ["page"],
     "transforms": {
       "model": {
         "propagation": "components[?(@.$control || @.$grouping)]"
@@ -46,7 +46,7 @@
     }
   },
   "page.content": {
-    "categories": ["page"],
+    "category": ["page"],
     "transforms": {
       "model": {
         "propagation": "components[?(@.$control || @.$grouping)]"

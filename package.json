@@ -1,6 +1,6 @@
 {
   "name": "@ministryofjustice/fb-runtime-node",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "test:unit": "tape index.unit.spec.js lib/**/*.unit.spec.js"
   },
   "dependencies": {
-    "@ministryofjustice/fb-specification": "git+https://github.com/ministryofjustice/fb-specification.git#a649c94",
+    "@ministryofjustice/fb-specification": "0.0.2",
     "@ministryofjustice/fb-utils-node": "^0.1.1",
     "glob-promise": "^3.4.0",
     "jsonpath": "^1.0.0",

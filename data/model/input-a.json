@@ -12,6 +12,7 @@
           {
             "_id": "foo-group-a",
             "_type": "text",
+            "name": "foo-group-a-text",
             "show": {
               "_id": "condition.text_is",
               "_type": "condition",
