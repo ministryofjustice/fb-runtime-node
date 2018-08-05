@@ -20,9 +20,18 @@
     "modelProtect": true,
     "url": "/step-b"
   },
+  "stepZ": {
+    "_id": "stepZ",
+    "_type": "page.form",
+    "model": "modelZ",
+    "url": "step-z"
+  },
   "topB": {
     "_id": "topB",
-    "_type": "page.content"
+    "_type": "page.content",
+    "steps": [
+      "stepZ"
+    ]
   },
   "topA": {
     "_id": "topA",
