@@ -1,29 +1,37 @@
 {
-  "topA": {
-    "_id": "topA",
-    "_type": "page.start",
-    "steps": [
-      "stepA",
-      "stepB"
-    ]
+  "stepC": {
+    "_id": "stepC",
+    "_type": "page.content",
+    "model": "modelC",
+    "url": "step-c",
+    "repeatable": true
   },
   "stepA": {
     "_id": "stepA",
     "_type": "page.singlequestion",
     "steps": [
       "stepC"
-    ]
+    ],
+    "url": "step-a"
   },
   "stepB": {
     "_id": "stepB",
-    "_type": "page.form"
-  },
-  "stepC": {
-    "_id": "stepC",
-    "_type": "page.content"
+    "_type": "page.form",
+    "modelProtect": true,
+    "url": "/step-b"
   },
   "topB": {
     "_id": "topB",
     "_type": "page.content"
+  },
+  "topA": {
+    "_id": "topA",
+    "_type": "page.start",
+    "model": "modelA",
+    "steps": [
+      "stepA",
+      "stepB"
+    ],
+    "url": "top-a"
   }
 }
