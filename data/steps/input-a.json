@@ -42,5 +42,9 @@
       "stepB"
     ],
     "url": "top-a"
+  },
+  "topD": {
+    "_id": "topD",
+    "_type": "page.bacon"
   }
 }
