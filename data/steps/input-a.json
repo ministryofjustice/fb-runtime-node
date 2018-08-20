@@ -46,5 +46,21 @@
   "topD": {
     "_id": "topD",
     "_type": "page.bacon"
+  },
+  "topE": {
+    "_id": "topE",
+    "_type": "page.form",
+    "model": "modelE",
+    "repeatable": true,
+    "steps": [
+      "stepF"
+    ],
+    "url": "top-e"
+  },
+  "stepF": {
+    "_id": "stepF",
+    "_type": "page.form",
+    "model": "modelF",
+    "url": "step-f"
   }
 }
