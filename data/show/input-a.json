@@ -110,14 +110,14 @@
         "modelProtect": true,
         "show": {
           "_id": "gosh",
-          "anyOfConditions": [
+          "any": [
             {
               "identifier": "shonk",
               "operator": "is",
               "value": "twonl"
             },
             {
-              "allOfConditions": [
+              "all": [
                 {
                   "identifier": "bam",
                   "operator": "equals",

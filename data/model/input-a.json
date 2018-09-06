@@ -38,14 +38,14 @@
         "modelProtect": true,
         "show": {
           "_id": "gosh",
-          "anyOfConditions": [
+          "any": [
             {
               "identifier": "foo",
               "operator": "is",
               "value": "bar"
             },
             {
-              "allOfConditions": [
+              "all": [
                 {
                   "identifier": "bam",
                   "operator": "equals",

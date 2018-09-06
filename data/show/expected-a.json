@@ -28,7 +28,7 @@
     "_type": "page.form",
     "show": {
       "_type": "condition",
-      "allOfConditions": [
+      "all": [
         {
           "_id": "showSteps.fim",
           "_type": "condition",
@@ -59,7 +59,7 @@
     "_type": "page.singlequestion",
     "show": {
       "_type": "condition",
-      "allOfConditions": [
+      "all": [
         {
           "_id": "showSteps.fim",
           "_type": "condition",
@@ -117,7 +117,7 @@
         "_type": "text",
         "show": {
           "_type": "condition",
-          "allOfConditions": [
+          "all": [
             {
               "_id": "bah",
               "_type": "condition",
@@ -127,7 +127,7 @@
             },
             {
               "_type": "condition",
-              "anyOfConditions": [
+              "any": [
                 {
                   "_id": "nooo",
                   "_type": "condition",
@@ -182,14 +182,14 @@
         "modelProtect": true,
         "show": {
           "_id": "gosh",
-          "anyOfConditions": [
+          "any": [
             {
               "identifier": "shonk",
               "operator": "is",
               "value": "twonl"
             },
             {
-              "allOfConditions": [
+              "all": [
                 {
                   "identifier": "bam",
                   "operator": "equals",
