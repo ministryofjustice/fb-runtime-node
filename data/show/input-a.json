@@ -44,12 +44,12 @@
   "foo": {
     "_id": "foo",
     "_type": "page.wham",
-    "model": "foomodel",
+    "namespace": "foonamespace",
     "components": [
       {
         "_id": "foo-group",
         "_type": "group",
-        "model": "wham",
+        "namespace": "wham",
         "items": [
           {
             "_id": "foo-group-a",
@@ -104,10 +104,10 @@
         "_type": "content"
       },
       {
-        "_id": "foo-with-model",
+        "_id": "foo-with-namespace",
         "_type": "radios",
-        "model": "monkey",
-        "modelProtect": true,
+        "namespace": "monkey",
+        "namespaceProtect": true,
         "show": {
           "_id": "gosh",
           "any": [
