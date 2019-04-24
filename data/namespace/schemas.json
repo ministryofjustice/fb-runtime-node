@@ -8,7 +8,7 @@
   "group": {
     "category": ["grouping"],
     "transforms": {
-      "model": {
+      "namespace": {
         "propagation": "items[?(@.$control || @.$grouping)]"
       }
     }
@@ -16,7 +16,7 @@
   "page.start": {
     "category": ["page"],
     "transforms": {
-      "model": {
+      "namespace": {
         "propagation": "components[?(@.$control || @.$grouping)]"
       }
     }
@@ -24,7 +24,7 @@
   "page.wham": {
     "category": ["page"],
     "transforms": {
-      "model": {
+      "namespace": {
         "propagation": "components[?(@.$control || @.$grouping)]"
       }
     }
@@ -32,7 +32,7 @@
   "page.singlequestion": {
     "category": ["page"],
     "transforms": {
-      "model": {
+      "namespace": {
         "propagation": "components[?(@.$control || @.$grouping)]"
       }
     }
@@ -40,7 +40,7 @@
   "page.form": {
     "category": ["page"],
     "transforms": {
-      "model": {
+      "namespace": {
         "propagation": "components[?(@.$control || @.$grouping)]"
       }
     }
@@ -48,7 +48,7 @@
   "page.content": {
     "category": ["page"],
     "transforms": {
-      "model": {
+      "namespace": {
         "propagation": "components[?(@.$control || @.$grouping)]"
       }
     }
