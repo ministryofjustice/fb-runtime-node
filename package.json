@@ -1,6 +1,6 @@
 {
   "name": "@ministryofjustice/fb-runtime-node",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "@ministryofjustice/fb-utils-node": "^0.1.5",
     "glob-promise": "^3.4.0",
     "jsonpath": "^1.0.1",
-    "load-json-file": "^5.3.0",
+    "load-json-file": "^6.0.0",
     "write-json-file": "^3.2.0"
   },
   "devDependencies": {
