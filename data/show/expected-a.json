@@ -218,5 +218,16 @@
   "jam": {
     "_id": "jam",
     "_type": "page.form"
+  },
+  "frog": {
+    "_id": "frog",
+    "_type": "page.form",
+    "show": false 
+  },
+  "toad": {
+    "_id": "toad",
+    "_type": "page.form",
+    "mountPoint": "frog",
+    "show": false
   }
 }

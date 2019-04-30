@@ -62,5 +62,11 @@
     "_type": "page.form",
     "namespace": "namespaceF",
     "url": "step-f"
+  },
+  "mountedG": {
+    "_id": "mountedG",
+    "_type": "page.form",
+    "mountPoint": "topA",
+    "url": "mount-g"
   }
 }
