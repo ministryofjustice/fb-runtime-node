@@ -68,5 +68,43 @@
     "_type": "page.form",
     "mountPoint": "topA",
     "url": "mount-g"
+  },
+  "scopeA": {
+    "_id": "scopeA",
+    "_type": "page.form",
+    "scope": "another-scope",
+    "steps": [
+      "scopeB",
+      "scopeC"
+    ],
+    "url": "scope-a"
+  },
+  "scopeB": {
+    "_id": "scopeB",
+    "_type": "page.form",
+    "url": "scope-b"
+  },
+  "scopeC": {
+    "_id": "scopeC",
+    "_type": "page.form",
+    "scope": "own-scope",
+    "url": "scope-c"
+  },
+  "mountedContextD": {
+    "_id": "mountedContextD",
+    "_type": "page.form",
+    "mountPoint": "scopeA",
+    "url": "mounted-scope-d"
+  },
+  "root": {
+    "_id": "root",
+    "_type": "page.form",
+    "url": "/"
+  },
+  "mountOnRoot": {
+    "_id": "mountOnRoot",
+    "_type": "page.form",
+    "mountPoint": "root",
+    "url": "mount-on-root"
   }
 }
