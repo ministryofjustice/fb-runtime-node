@@ -1,6 +1,6 @@
 {
   "name": "@ministryofjustice/fb-runtime-node",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,18 +11,19 @@
     "test:unit": "tap index.unit.spec.js lib/**/*.unit.spec.js"
   },
   "dependencies": {
-    "@ministryofjustice/fb-utils-node": "^0.1.5",
+    "@ministryofjustice/fb-specification": "^0.3.2",
+    "@ministryofjustice/fb-utils-node": "^0.1.6",
     "glob-promise": "^3.4.0",
-    "jsonpath": "^1.0.1",
-    "load-json-file": "^6.0.0",
-    "write-json-file": "^3.2.0"
+    "jsonpath": "^1.0.2",
+    "load-json-file": "^6.1.0",
+    "write-json-file": "^4.1.0"
   },
   "devDependencies": {
-    "@ministryofjustice/eslint-config-fb": "^1.0.6",
+    "@ministryofjustice/eslint-config-fb": "^1.0.7",
     "npm-run-all": "^4.1.5",
     "shelljs": "^0.8.3",
-    "tap": "^13.1.6",
-    "tape": "^4.10.1"
+    "tap": "^14.2.2",
+    "tape": "^4.10.2"
   },
   "repository": {
     "type": "git",
