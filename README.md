@@ -8,10 +8,6 @@ Transforms Form Builder edit-time service instances into run-time ones
 npm install @ministryofjustice/fb-runtime-node
 ```
 
-## Usage
-
-... TODO
-
 ## Testing
 
 ``` shell
