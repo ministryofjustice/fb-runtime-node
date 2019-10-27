@@ -1,6 +1,6 @@
 {
   "name": "@ministryofjustice/fb-runtime-node",
-  "version": "0.1.19",
+  "version": "0.1.20",
   "main": "index.js",
   "scripts": {
     "lint": "eslint lib",
