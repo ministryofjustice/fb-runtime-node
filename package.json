@@ -21,7 +21,7 @@
     "load-json-file": "^6.2.0"
   },
   "devDependencies": {
-    "@ministryofjustice/eslint-config-fb": "^1.1.2",
+    "@ministryofjustice/eslint-config-fb": "^1.1.4",
     "shelljs": "^0.8.3",
     "tap": "^14.8.2",
     "tape": "^4.11.0"
