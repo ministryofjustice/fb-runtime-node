@@ -1,14 +1,18 @@
 {
   "name": "@ministryofjustice/fb-runtime-node",
-  "version": "0.1.19",
-  "author": "Form Builder Team <form-builder-team@digital.justice.gov.uk>",
-  "license": "MIT",
+  "version": "0.1.20",
   "main": "index.js",
   "scripts": {
     "lint": "eslint lib",
     "lint:fix": "eslint lib --fix",
     "test": "tap"
   },
+  "author": "Form Builder Team <form-builder-team@digital.justice.gov.uk>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ministryofjustice/fb-runtime-node.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "@ministryofjustice/fb-specification": "^0.3.3",
     "@ministryofjustice/fb-utils-node": "^0.1.6",
@@ -19,11 +23,7 @@
   "devDependencies": {
     "@ministryofjustice/eslint-config-fb": "^1.1.2",
     "shelljs": "^0.8.3",
-    "tap": "^14.6.1",
+    "tap": "^14.8.2",
     "tape": "^4.11.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ministryofjustice/fb-runtime-node.git"
   }
 }
