@@ -14,14 +14,14 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ministryofjustice/fb-specification": "^0.3.4",
+    "@ministryofjustice/fb-specification": "^0.3.5",
     "@ministryofjustice/fb-utils-node": "^0.1.8",
     "glob-promise": "^3.4.0",
     "jsonpath": "^1.0.2",
     "load-json-file": "^6.2.0"
   },
   "devDependencies": {
-    "@ministryofjustice/eslint-config-fb": "^1.1.4",
+    "@ministryofjustice/eslint-config-fb": "^1.1.5",
     "shelljs": "^0.8.3",
     "tap": "^14.10.0",
     "tape": "^4.11.0"
