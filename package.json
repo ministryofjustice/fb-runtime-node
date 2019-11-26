@@ -1,6 +1,6 @@
 {
   "name": "@ministryofjustice/fb-runtime-node",
-  "version": "0.1.21",
+  "version": "0.1.23",
   "main": "index.js",
   "scripts": {
     "lint": "eslint lib",
@@ -14,7 +14,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ministryofjustice/fb-specification": "^0.3.7",
     "@ministryofjustice/fb-utils-node": "^0.1.8",
     "glob-promise": "^3.4.0",
     "jsonpath": "^1.0.2",
