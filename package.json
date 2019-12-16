@@ -23,6 +23,6 @@
     "@ministryofjustice/eslint-config-fb": "^1.1.6",
     "shelljs": "^0.8.3",
     "tap": "^14.10.4",
-    "tape": "^4.11.0"
+    "tape": "^4.12.0"
   }
 }
