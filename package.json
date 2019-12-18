@@ -22,7 +22,7 @@
   "devDependencies": {
     "@ministryofjustice/eslint-config-fb": "^1.1.6",
     "shelljs": "^0.8.3",
-    "tap": "^14.10.4",
+    "tap": "^14.10.5",
     "tape": "^4.12.0"
   }
 }
